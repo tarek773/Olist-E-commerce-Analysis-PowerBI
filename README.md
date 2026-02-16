@@ -8,38 +8,43 @@ This project provides a comprehensive analysis of the **Olist E-commerce** datas
 
 ## 🚀 Key Features & Insights
 
-### 1. Seller Performance & Operational Excellence
-Monitoring seller efficiency using custom KPIs and visual alerts.
-* **Top Sellers:** Identified top performers by revenue (up to **R$ 163K**).
-* **Delivery Bottlenecks:** Used conditional formatting to highlight sellers with extreme delays (up to **190 days**).
-* **Visuals:** Integrated **Data Bars** and **Icons** for instant performance evaluation.
-
-![Seller Performance](./image_458078.png)
-
----
-
-### 2. Advanced AI Analytics
+### 1. Advanced AI Analytics
 Using Power BI's machine learning capabilities to drive decisions.
-* **Key Influencers:** Discovered that delivery times over **32 days** are the primary reason for a **1.93** drop in review scores.
-* **RFM Segmentation:** Classified the customer base, revealing that **89.79%** fall into the "Others" category, highlighting a massive opportunity for retention strategies.
+* **Key Influencers:** AI-driven analysis found that delivery times over **32 days** are the primary reason for a **1.93** drop in review scores.
+* **RFM Segmentation:** Classified the customer base, revealing that **89.79%** fall into the "Others" category.
 * **Decomposition Tree:** Drilled down into the **R$ 6.52M** total revenue by Quarter and Category.
 
-![Advanced Analytics](./image_50bf02.png)
+![Advanced Analytics](./Advanced%20Analytics.png)
 
 ---
 
-### 3. Market Basket Analysis
+### 2. Seller Performance & Operational Excellence
+Monitoring seller efficiency using custom KPIs and visual alerts.
+* **Top Sellers:** Identified top performers by revenue and volume.
+* **Delivery Bottlenecks:** Used conditional formatting to highlight sellers with extreme delays.
+
+![Seller Performance](./Seller%20Performance.png)
+
+---
+
+### 3. Logistics & Customer Insights
+* **Geographical Distribution:** Visualizing where orders are coming from across Brazil.
+* **Delivery Trends:** Tracking shipping performance to improve customer satisfaction.
+
+![Logistics & Operations](./Logistics%20&%20Operations.png)
+![Customer Insights](./Customer%20Insights.png)
+
+---
+
+### 4. Market Basket Analysis
 Understanding purchasing behavior through product associations.
 * Analyzed **Order Density** to see which categories (like `agro_industry_and_commerce`) frequently appear in multi-item orders.
-
-![Basket Analysis](./image_506221.png)
 
 ---
 
 ## 🛠️ Technical Implementation
 * **DAX Formulas:** Developed for RFM scoring, dynamic dates, and custom aggregations.
-* **Conditional Formatting:** Built custom logic for color gradients (Red to Green) based on review scores.
-* **Navigation:** Built a seamless user experience using a custom **Navigator Bar** and **Reset Filters** buttons.
+* **Navigation:** Built a seamless user experience using a custom **Navigator Bar**.
 
 ---
 
